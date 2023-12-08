@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 
 
+
 export const Nav = ()=> {
   return (
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   
-  
+<a class="navbar-brand" href="/">Hare-Mkart</a>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
@@ -24,5 +25,6 @@ export const Nav = ()=> {
     
   </div>
 </nav>
+
   )
   }

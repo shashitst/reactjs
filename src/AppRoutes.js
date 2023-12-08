@@ -4,6 +4,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/about";
 import NoPage from "./pages/noPages";
 
+
 import {  Routes, Route } from "react-router-dom";
 //relative path
 
