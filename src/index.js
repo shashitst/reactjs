@@ -6,6 +6,11 @@ import AppRoutes from './AppRoutes';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
+// import  icon  from './components/Icon';
+
+
+
+
 
 
 
@@ -13,9 +18,16 @@ import './App.css';
 export default function App() {
   return (
     <BrowserRouter>
+    
+    {/* <Icon /> */}
+    
+   
+    
+   
    
       <AppRoutes />
     </BrowserRouter>
+    
   );
 }
 

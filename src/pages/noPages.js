@@ -1,5 +1,5 @@
 const NoPage = () => {
-    return <h1>Home,here </h1>;
+    return <h1>home, here </h1>;
   };
   
   export default NoPage;
