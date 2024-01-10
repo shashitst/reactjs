@@ -1,19 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-
-import { BrowserRouter } from "react-router-dom";
-import AppRoutes from './AppRoutes';
-import 'bootstrap/dist/css/bootstrap.css';
-import './App.css';
-import App from './App';
-
-export default function images() {
+import React from "react";
+export default function Back() {
    return (
       <div>
-         <h2> 
-            {" "}
-            Using the <i> React inline styles </i> to set a background image
-         </h2>
+        
          <br></br>
          <div
             class = "image"
@@ -26,12 +15,8 @@ export default function images() {
                backgroundRepeat: "no-repeat",
             }}
          >
-
+           
          </div>
       </div>
    );
 }
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
-
