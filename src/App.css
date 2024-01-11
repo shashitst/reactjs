@@ -37,7 +37,7 @@
     transform: rotate(360deg);
   }
 }
-.nav-active{
+.nav-active{ 
   color: red;
 }
 body{
@@ -46,3 +46,10 @@ body{
   background-attachment: fixed;
   background-position: center;
 }
+.image{
+  margin: auto;
+  width: 50%;
+  min-height: 500px;
+}
+
+
