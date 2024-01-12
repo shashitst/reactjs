@@ -5,7 +5,7 @@ export default  function Adding(props) {
   const [age, setAge] = useState(props.age);
 
   function increment() {
-    setAge(age + 1);
+    setAge((prev) =>prev + 1);
   }
 
   return (
