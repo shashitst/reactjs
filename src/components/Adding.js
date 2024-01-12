@@ -1,14 +1,16 @@
 import { useState } from 'react';
 
-export default function Adding() {
-  const [age, setAge] = useState(23);
+
+export default  function Adding(props) {
+  const [age, setAge] = useState(props.age);
 
   function increment() {
     setAge(age + 1);
   }
 
   return (
-    <>
+    
+    <div>
       <h1>Your age: {age}</h1>
       <button onClick={() => {
         increment();
@@ -18,6 +20,6 @@ export default function Adding() {
       <button onClick={() => {
         increment();
       }}>+1</button>
-    </>
+    </div>
   );
 }

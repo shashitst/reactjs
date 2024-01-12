@@ -1,7 +1,19 @@
+import Adding from "../components/Adding";
+
+
+
 export const Home = () => {
+  
+  
  
     return (
-      <button onClick={Home}></button>
+      <>
+      <Adding age={23} /> 
+      
+      <button onClick={Home}>submit</button>
+      </>
+      
+    
           
     )
   };

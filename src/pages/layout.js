@@ -3,7 +3,8 @@ import { Nav } from '../components/NavBar';
 const Layout = () => {
   return (
     <>
-      <Nav title="Hare M-Kart" />
+      <Nav title></Nav>
+      
       <Outlet />
     </>
   )
