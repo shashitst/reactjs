@@ -1,4 +1,8 @@
 export const Home = () => {
-    return <h1>Home,here</h1>;
+ 
+    return (
+      <button onClick={Home}></button>
+          
+    )
   };
   
