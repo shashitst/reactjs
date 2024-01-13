@@ -14,9 +14,12 @@ import { Routes, Route } from "react-router-dom";
 
 
 
-export default function AppRoutes() {
+export default function AppRoutes(){
 
   return (
+<>
+
+       
     
     <Routes>
      
@@ -32,6 +35,10 @@ export default function AppRoutes() {
         
       </Route>
     </Routes>
-    
+
+
+
+    </>
   )
 }
+
