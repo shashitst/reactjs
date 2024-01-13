@@ -7,6 +7,7 @@ import Layout from "../pages/layout";
 // to enable teh state in any componoent we have to import the below.
 import { useState } from "react";
 import { useEffect } from "react";
+import Back from "../Back";
 
 
 
@@ -24,6 +25,7 @@ export const Nav = () => {
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <img src="https://t4.ftcdn.net/jpg/01/36/70/67/360_F_136706734_KWhNBhLvY5XTlZVocpxFQK1FfKNOYbMj.jpg" height={30} ></img> 
       <a class="navbar-brand" href="/">Hare M-Kart</a>
+      
       
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -60,6 +62,7 @@ export const Nav = () => {
 
       </div>
     </nav>
+    
 
 
 

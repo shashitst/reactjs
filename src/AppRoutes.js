@@ -7,7 +7,9 @@ import Counter from "./components/Counters";
 
 
 import { Routes, Route } from "react-router-dom";
-import Adding from "./components/Adding";
+
+
+
 //relative path
 
 
@@ -15,6 +17,7 @@ import Adding from "./components/Adding";
 export default function AppRoutes() {
 
   return (
+    
     <Routes>
      
       <Route path="/" element={<Layout />}>
@@ -26,7 +29,9 @@ export default function AppRoutes() {
         <Route path="Counter" element={<Counter />} />
         
         <Route path="*" element={<NoPage />} />
+        
       </Route>
     </Routes>
+    
   )
 }
