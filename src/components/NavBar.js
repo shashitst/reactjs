@@ -55,6 +55,12 @@ export const Nav = () => {
           >
             <Link class={`nav-link  ${(selectedMenu === "Counter") ? "nav-active" : ""}`} to="/Counter">Counter</Link>
           </li>
+          <li
+            class="nav-item"
+            onClick={() => setSelectedMenu('Form')}
+          >
+            <Link class={`nav-link  ${(selectedMenu === "Form") ? "nav-active" : ""}`} to="/Form">Form</Link>
+          </li>
 
          
 

@@ -7,6 +7,7 @@ import Counter from "./components/Counters";
 
 
 import { Routes, Route } from "react-router-dom";
+import SimpleForm from "./SimpleForm";
 
 
 
@@ -30,7 +31,7 @@ export default function AppRoutes(){
         <Route path="contact" element={<Contact />} />
         <Route path="about" element={<About />} />
         <Route path="Counter" element={<Counter />} />
-        
+        <Route path="Form" element={<SimpleForm />} />
         <Route path="*" element={<NoPage />} />
         
       </Route>
