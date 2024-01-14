@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 export default  function Adding(props) {
@@ -7,8 +7,8 @@ export default  function Adding(props) {
   function increment() {
     setAge((prev) =>prev + 1);
   }
-
-  return (
+useEffect(()=>{},[age])
+  return ( 
     
     <div>
       <h1>Your age: {age}</h1>
@@ -22,4 +22,5 @@ export default  function Adding(props) {
       }}>+1</button>
     </div>
   );
-}
+  
+    }
